@@ -196,7 +196,7 @@ const App = () => {
 }
 ```
 
-Uuden muistiinpanon luomista varten määritellään [mutaatio](https://tanstack.com/query/latest/docs/react/guides/mutations) funktion [useMutation](https://tanstack.com/query/latest/docs/react/reference/useMutatio) avulla:
+Uuden muistiinpanon luomista varten määritellään [mutaatio](https://tanstack.com/query/latest/docs/react/guides/mutations) funktion [useMutation](https://tanstack.com/query/latest/docs/react/reference/useMutation) avulla:
 
 ```js
 const newNoteMutation = useMutation({ mutationFn: createNote })
